@@ -41,7 +41,7 @@ def StudentsNotes():
         else:
             print(f'Congratulations! The {aluno["name"]} is approved!')
         sleep(0.8)
-        print("=-" * 10)
+        print("=-=-=-=-=-=-=-=")
 
         maior = menor = listaaluno[0]["average"]  
 
