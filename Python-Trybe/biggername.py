@@ -1,11 +1,9 @@
 names = ['Jullyan', 'Gustavo', 'Alessandro', 'Luan']
-
-def main(index):
-    bigger_name = ''
-    for name in index:
-        if len(name) > len(bigger_name):
-            bigger_name = name
-    return bigger_name
+def main(sring):
+    for name in sring:
+        if len(name) > len(sring):
+            sring = name
+    return sring
 
 print(main(names))
 

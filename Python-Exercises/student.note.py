@@ -1,10 +1,5 @@
 from time import sleep
 
-# Permitir cadastrar alunos e suas notas. OK
-# Calcular a média de cada aluno. OK
-# Mostrar a lista de alunos aprovados (média ≥ 7) e reprovados (média < 7). OK
-# Mostrar a maior e a menor média da turma. OK
-
 cadaluno = {}
 listaaluno = []
 maior = menor = 0
@@ -57,6 +52,6 @@ def StudentsNotes():
 
 StudentsNotes()
 
-print('Come back soon!')
+print('Come back soon...')
 
 
